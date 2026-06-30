@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+.btn {
+    background: white;
+    color: #4CAF50;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Dark mode */
+.dark-mode {
+    background: #1a1a1a;
+    color: white;
+}
+
+.form-section {
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.workout-card {
+    background: white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.deleteBtn {
+    margin-top: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
